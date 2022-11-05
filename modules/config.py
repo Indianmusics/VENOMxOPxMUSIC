@@ -7,9 +7,9 @@ load_dotenv()
 que = {}
 admins = {}
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", "11019153"))
+API_HASH = getenv("API_HASH", "71e4c97877f8452bd741d0b9f05bc810")
+BOT_TOKEN = getenv("BOT_TOKEN", "5737170801:AAG4cSETRUvaO6LSC_T82AI_0WbmzjOM-YU")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
 STRING_SESSION = getenv("STRING_SESSION")
 OWNER_USERNAME = getenv("OWNER_USERNAME")
